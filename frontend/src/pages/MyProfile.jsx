@@ -64,7 +64,7 @@ const MyProfile = () => {
           <div className="text-center sm:text-left">
             {isEdit ? (
               <input
-                className="bg-gray-50 text-2xl font-semibold border-b-2 border-black outline-none px-2 py-1"
+                className="bg-gray-50 text-2xl font-semibold   outline-none px-2 py-1"
                 type="text"
                 value={userData.name}
                 onChange={(e) =>
