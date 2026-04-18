@@ -23,7 +23,7 @@ const Footer = () => {
             <li>Delivery</li>
             <li>Privacy policy</li>
             <li
-              onClick={() => window.open("http://localhost:5175", "_blank")}
+              onClick={() => window.open("https://eccomerce-fawn.vercel.app", "_blank")}
               className="cursor-pointer text-blue-600 hover:text-blue-800 font-medium mt-2"
             >
               Admin Panel

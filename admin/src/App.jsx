@@ -10,7 +10,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-export const backendUrl='http://localhost:5500'
+export const backendUrl='https://eccomerce-app-1e6k.onrender.com'
 export const currency='$'
 
 const App = () => {
