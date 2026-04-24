@@ -6,7 +6,7 @@ import JWT from 'jsonwebtoken'
 
 
 const generateToken = (id) => {
-    return JWT.sign({ id }, process.env.JWT_SECRET,{ expiresIn: '24h' });
+    return JWT.sign({ id }, process.env.JWT_SECRET);
 };
 
 const loginUser=async(req,res)=>{
